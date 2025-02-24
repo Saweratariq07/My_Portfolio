@@ -4,8 +4,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { BiDownload } from "react-icons/bi";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
+import { MdTravelExplore } from "react-icons/md";
 import { motion } from "framer-motion";
-import CV from "../data/My Resume.pdf";
 
 const HeroSection = ({ nav, handleNav }) => {
 	const scrollToTop = () => {
@@ -94,18 +94,18 @@ const HeroSection = ({ nav, handleNav }) => {
 				whileInView='visible'
 				className='hero-content'>
 				<p className='hero-intro'>
-					<span>Sawera</span> <span>Tariq.</span>
+					<span>UTS HUB</span>
 				</p>
 				<p className='hero-desc'>
-					I'm a <span className='hero-desc-sub'>Web Developer.</span>
+					We Are  <span className='hero-desc-sub'>Digital Marketers</span>
 				</p>
 			</motion.div>
 			<motion.span
 				variants={contactVariants}
 				initial='hidden'
 				whileInView='visible'>
-				<a href={CV} download='Sawera_Tariq CV' className='hero-contact'>
-					Download CV <BiDownload className='cv-icon' />
+				<a  className='hero-contact'>
+					Explore  More<MdTravelExplore  className='cv-icon' />
 				</a>
 			</motion.span>
 		</div>

@@ -80,25 +80,25 @@ const Contact = () => {
             >
               <div className="contact-heading">
                 <p>
-                  I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have other requests or questions, don’t hesitate to use the form.
+                  We are interested in freelance opportunities – especially ambitious or large projects. However, if you have other requests or questions, don’t hesitate to use the form.
                 </p>
               </div>
               <div className="contact-hello">
                 <p>Say Hello</p>
                 <Link
                   className="hello-links"
-                  to="//wa.me/+923368899414"
+                  to="//wa.me/+923181469843"
                   target="_blank"
                 >
-                  wa.me/sawera
+                  wa.me/UTS HUB
                 </Link>
                 <a
                   className="hello-links"
-                  href="mailto:saweratariq567@gmail.com"
+                  href="mailto:utshub330@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  saweratariq567@gmail.com
+             utshub330@gmail.com
                 </a>
               </div>
             </motion.div>
@@ -144,7 +144,7 @@ const Contact = () => {
                       id="message"
                       value={formData.message}
                       onChange={handleChange}
-                      placeholder="Hi, I think I need you to work on this particular project."
+                      placeholder="Hi, we think we need you to work on this particular project."
                       required
                     ></textarea>
                   </div>

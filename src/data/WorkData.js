@@ -11,7 +11,7 @@ export const ReactData = [
 			"Context API",
 		],
 		gitlink: "/",
-		site: "http://medilaserbylucy.nl/",
+		site: "",
 	},
 	{
 		title: "Blogger dashboard",
@@ -27,34 +27,34 @@ export const ReactData = [
 		gitlink: "/",
 		site: "/",
 	},
-	// {
-	// 	title: "Netflix Clone",
-	// 	desc: "A movie app using the netflix UI with a touch of creativity.",
-	// 	tech: [
-	// 		"React.js",
-	// 		"Firebase",
-	// 		"TailwindCss",
-	// 		"APIs",
-	// 		"Axios",
-	// 		"Context API",
-	// 	],
-	// 	gitlink: "//github.com/Pappyjay23/netflix-clone",
-	// 	site: "//netflix-vp.vercel.app",
-	// },
-	// {
-	// 	title: "Todo App",
-	// 	desc: "A todo list web app",
-	// 	tech: ["React.js", "Css", "PWAs"],
-	// 	gitlink: "//www.github.com/Pappyjay23/todo-list",
-	// 	site: "//todo-list-v0.netlify.app",
-	// },
-	// {
-	// 	title: "Digitaly",
-	// 	desc: "A website for a digital marketing agency",
-	// 	tech: ["React.js", "TailwindCss", "Framer Motion"],
-	// 	gitlink: "//github.com/Pappyjay23/Digitaly",
-	// 	site: "//digitaly.netlify.app/",
-	// },
+	{
+		title: "Netflix Clone",
+		desc: "A movie app using the netflix UI with a touch of creativity.",
+		tech: [
+			"React.js",
+			"Firebase",
+			"TailwindCss",
+			"APIs",
+			"Axios",
+			"Context API",
+		],
+		gitlink: "",
+		site: "",
+	},
+	{
+		title: "Todo App",
+		desc: "A todo list web app",
+		tech: ["React.js", "Css", "PWAs"],
+		gitlink: "",
+		site: "",
+	},
+	{
+		title: "Digitaly",
+		desc: "A website for a digital marketing agency",
+		tech: ["React.js", "TailwindCss", "Framer Motion"],
+		gitlink: "",
+		site: "",
+	},
 ];
 
 export const VueData = [
@@ -71,37 +71,37 @@ export const VueData = [
 			"Yup",
 			"Axios",
 		],
-		gitlink: "//github.com/Pappyjay23/DevHire",
-		site: "//dev-hire-vp.vercel.app/",
+		gitlink: "",
+		site: "",
 	},
 	{
 		title: "ArtSphere",
 		desc: "A platform to showcase beautiful image collections.",
 		tech: ["Vue.js", "APIs", "TailwindCss", "Firebase", "Vue-Router"],
-		gitlink: "//github.com/Pappyjay23/ArtSphere",
-		site: "//art-sphere-gallery.vercel.app/",
+		gitlink: "",
+		site: "",
 	},
 	{
 		title: "Mini Unsplash",
 		desc: "A platform that allows you to enjoy the beauty of high-quality imagery right at your fingertips",
 		tech: ["Vue.js", "APIs", "Sass", "Axios"],
 		gitlink: "",
-		site: "//mini-unsplash-clone.vercel.app/",
+		site: "",
 	},
 ];
 
-// export const ReactNativeData = [
-// 	{
-// 		title: "Serenify",
-// 		desc: "A mobile app combining guided meditation and daily affirmations to inspire and uplift",
-// 		tech: [
-// 			"React Native",
-// 			"Expo",
-// 			"Expo-Router",
-// 			"Expo-Vector-Icons",
-// 			"Native Wind",
-// 		],
-// 		gitlink: "//github.com/Pappyjay23/Serenify",
-// 		app: "//drive.google.com/uc?export=download&id=1WGhO4zmFH6C05_PY9C5CYYEUVNCNVRHJ",
-// 	},
-// ];
+export const ReactNativeData = [
+	{
+		title: "Serenify",
+		desc: "A mobile app combining guided meditation and daily affirmations to inspire and uplift",
+		tech: [
+			"React Native",
+			"Expo",
+			"Expo-Router",
+			"Expo-Vector-Icons",
+			"Native Wind",
+		],
+		gitlink: "",
+		app: "",
+	},
+];

@@ -56,7 +56,7 @@ const Navbar = ({ nav, handleNav }) => {
 							onClick={handleNav}
 							to='home'
 							className='profile-name'>
-							Sawera Tariq
+							UTS HUB
 						</Link>
 						<NavLinks handleNav={handleNav} />
 					</div>
@@ -142,7 +142,7 @@ const Navbar = ({ nav, handleNav }) => {
 					</ul>
 					<div className='copy'>
 						<small className='copyright'>
-							© Copyright ©2022 <br /> All rights reserved |
+							© Copyright ©2025 <br /> All rights reserved |UTS HUB
 						</small>
 					</div>
 				</motion.div>

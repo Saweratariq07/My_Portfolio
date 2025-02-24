@@ -7,23 +7,23 @@ const NavLinks = ({handleNav}) => {
   return (
     <ul className='nav-links'>
 <li onClick={handleNav}>
-<a href="https://www.instagram.com/saweratariq567/" target="_blank" rel="noopener noreferrer" className="nav-link">
+<a href="" target="_blank" rel="noopener noreferrer" className="nav-link">
     <FaInstagram />
 </a>
 
 </li>
         <li onClick={handleNav}>
-  <a href="https://www.linkedin.com/in/saweratariq" target="_blank" rel="noopener noreferrer" className="nav-link">
+  <a href="" target="_blank" rel="noopener noreferrer" className="nav-link">
     <FaLinkedin />
   </a>
 </li><li onClick={handleNav}>
-  <a href="https://github.com/Saweratariq07/" target="_blank" rel="noopener noreferrer" className="nav-link">
+  <a href="" target="_blank" rel="noopener noreferrer" className="nav-link">
     <BsGithub />
   </a>
 </li>
 
 <li onClick={handleNav}>
-  <a href="mailto:saweratariq567@gmail.com" target="_blank" rel="noopener noreferrer" className="nav-link">
+  <a href="mailto:usmancharan007@gmail.com" target="_blank" rel="noopener noreferrer" className="nav-link">
     <BiEnvelope />
   </a>
 </li>

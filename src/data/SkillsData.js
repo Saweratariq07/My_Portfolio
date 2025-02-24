@@ -8,9 +8,12 @@ import {
 	FaSass
 } from "react-icons/fa";
 import { SiBootstrap } from "react-icons/si";
-import { RiVuejsLine } from "react-icons/ri";
+import { FaDigitalOcean } from "react-icons/fa";
+import { FaQuidditch } from "react-icons/fa";
+import { SiAntdesign } from "react-icons/si";
+import { TbAffiliate } from "react-icons/tb";
 import {
-	SiAdobephotoshop,
+	
 	SiFirebase,
 	SiFramer,
 	SiNextdotjs,
@@ -82,5 +85,21 @@ export const SkillsData = [
 	{
 		name: "Bootstrap",
 		icon: <SiBootstrap />,
+	},
+	{
+		name: "Graphic Design",
+		icon:<SiAntdesign />,
+	},
+	{
+		name: "UI/UX",
+		icon:<FaQuidditch />,
+	},
+	{
+		name: "Affiliate Marketing",
+		icon:<TbAffiliate />,
+	},
+	{
+		name: "Digital  Marketing",
+		icon:<FaDigitalOcean />,
 	},
 ];

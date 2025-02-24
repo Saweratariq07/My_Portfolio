@@ -1,9 +1,10 @@
 import React from 'react';
 import "../styles/Services.css"
+import { TbAffiliate } from "react-icons/tb";
 import {IoColorWandOutline} from "react-icons/io5"
 import {BiCodeAlt} from "react-icons/bi"
 import { motion } from "framer-motion";
-
+import { FaDigitalOcean } from "react-icons/fa";
 const Services = () => {
 
    const fade = {
@@ -25,13 +26,25 @@ const Services = () => {
                     <div className="services-card">
                         <BiCodeAlt className='services-icon' />
                         <p className='services-title'>Web Development</p>
-                        <p className='services-desc'>I use various web technologies to develop attractive,creative, interactive, responsive and functional website layouts. </p>
+                        <p className='services-desc'>We use various web technologies to develop attractive,creative, interactive, responsive and functional website layouts. </p>
                     </div>
-                    {/* <div className="services-card">
-                        <IoColorWandOutline className='services-icon' />
-                        <p className='services-title'>UI Design</p>
-                        <p className='services-desc'>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
-                    </div> */}
+                        <div className="services-card">
+                            <IoColorWandOutline className='services-icon' />
+                            <p className='services-title'>UI Design</p>
+                            <p className='services-desc'>We work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
+                        </div>
+                </motion.div>
+                <motion.div className="services-box" whileInView={fade} initial={{opacity: 0}}>
+                    <div className="services-card">
+                    <FaDigitalOcean  className='services-icon' />
+                        <p className='services-title'>Digital Marketing                         </p>
+                        <p className='services-desc'>I create responsive, SEO-optimized websites tailored for digital marketing to boost engagement, traffic, and conversions </p>
+                    </div>
+                        <div className="services-card">
+                        <TbAffiliate  className='services-icon' />
+                            <p className='services-title'>Affiliate Marketing</p>
+                            <p className='services-desc'>I develop SEO-optimized, responsive websites for affiliate marketing to maximize traffic, engagement, and conversions.</p>
+                        </div>
                 </motion.div>
               </div>
           </div>
