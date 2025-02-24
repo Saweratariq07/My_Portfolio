@@ -27,12 +27,15 @@ function App() {
   return (
     loading ? 
     <div className="loader">
-      <div className="svg-wrapper text-center">
-        <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
-          <rect className="shape" height="60" width="320" />
-        </svg>        
-        <motion.p variants={loadText} initial='hidden' animate='visible' className="text">UTS HUB</motion.p>
-      </div>
+    <div className="svg-wrapper text-center">
+  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+    <rect className="shape" height="60" width="320" />
+  </svg>
+  <motion.p variants={loadText} initial="hidden" animate="visible" className="text">
+    UTS HUB
+  </motion.p>
+</div>
+
     </div>
     :
     <div className="App">

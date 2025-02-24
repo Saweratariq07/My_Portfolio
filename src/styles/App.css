@@ -90,6 +90,7 @@ body {
 /*  Load animations */
 .svg-wrapper {
 	position: relative;
+	text-align: center;
 }
 
 @keyframes pageLoad {

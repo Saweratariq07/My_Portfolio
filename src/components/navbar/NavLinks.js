@@ -1,8 +1,8 @@
 import React from 'react';
-import { FaLinkedin, FaInstagram} from "react-icons/fa"
+import {  FaInstagram} from "react-icons/fa"
 import {BiEnvelope} from "react-icons/bi"
-import {BsGithub} from "react-icons/bs"
-
+import { TiSocialTwitter } from "react-icons/ti";
+import { FaFacebookF } from "react-icons/fa";
 const NavLinks = ({handleNav}) => {
   return (
     <ul className='nav-links'>
@@ -13,12 +13,12 @@ const NavLinks = ({handleNav}) => {
 
 </li>
         <li onClick={handleNav}>
-  <a href="" target="_blank" rel="noopener noreferrer" className="nav-link">
-    <FaLinkedin />
+  <a href="https://www.facebook.com/share/15BW68zjED/" target="_blank" rel="noopener noreferrer" className="nav-link">
+  <FaFacebookF />
   </a>
 </li><li onClick={handleNav}>
-  <a href="" target="_blank" rel="noopener noreferrer" className="nav-link">
-    <BsGithub />
+  <a href="https://x.com/ZeerakZee" target="_blank" rel="noopener noreferrer" className="nav-link">
+  <TiSocialTwitter />
   </a>
 </li>
 
