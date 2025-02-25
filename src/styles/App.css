@@ -74,6 +74,8 @@ body {
 	background-color: #00021a;
 	height: 100vh;
 	width: 100vw;
+	
+	justify-content: flex-start; 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -123,7 +125,9 @@ body {
 	position: absolute;
 	left: 20px;
 	top: 10px;
+	gap: 8px;
 	width: 100%;
+	padding-right: 50px;
 	transform: translate(-50% -50%);
 }
 
@@ -144,3 +148,8 @@ body {
 		padding: 1rem;
 	}
 }
+
+.icon {
+	font-size: 28px; 
+	vertical-align: middle;
+  }

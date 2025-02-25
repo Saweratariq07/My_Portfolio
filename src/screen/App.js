@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { BrowserRouter as Router } from "react-router-dom";
 import '../styles/App.css';
+import { FaAffiliatetheme } from "react-icons/fa";
 import { motion } from "framer-motion";
 import HomePage from "../pages/HomePage";
 
@@ -12,30 +13,29 @@ function App() {
   }, []);
 
   const loadText = {
-    hidden: {
-      opacity: 0,
-    },
-    visible: {
+    hidden: { opacity: 0 },
+    visible: { 
       opacity: 1,
-      transition:{
-        duration: 1
-      }
+      transition: { duration: 1 }
     }
   }
-
 
   return (
     loading ? 
     <div className="loader">
-    <div className="svg-wrapper text-center">
-  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
-    <rect className="shape" height="60" width="320" />
-  </svg>
-  <motion.p variants={loadText} initial="hidden" animate="visible" className="text">
-    UTS HUB
-  </motion.p>
-</div>
-
+      <div className="svg-wrapper text-center">
+        <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+          <rect className="shape" height="60" width="320" />
+        </svg>
+        <motion.p 
+          variants={loadText} 
+          initial="hidden" 
+          animate="visible" 
+          className="text"
+        >
+          UTS HUB <span className="icon"><FaAffiliatetheme className="mt-8"/></span>
+        </motion.p>
+      </div>
     </div>
     :
     <div className="App">
